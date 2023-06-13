@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//changes yes ok
+//changes yes okvgj
 
 struct ContentView: View {
     @State private var selectedRating = 0
@@ -40,9 +40,11 @@ struct ContentView: View {
             Toggle(isOn: $genderNeutral) {
                 Text("Gender Neutral")
             }
+            .padding
             Toggle(isOn: $wheelChairAccessible) {
                 Text("Wheel Chair Accessible")
             }
+            
             Toggle(isOn: $babyChangingStations) {
                 Text("Baby Changing Stations")
             }
