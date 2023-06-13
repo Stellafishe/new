@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//changes yes
+//changes yes ok
 
 struct ContentView: View {
     @State private var selectedRating = 0
